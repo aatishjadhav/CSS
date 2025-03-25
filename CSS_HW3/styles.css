@@ -1,0 +1,136 @@
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
+.mini {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.container1 {
+  width: 300px;
+  height: 300px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini1 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.list {
+  display: flex;
+  padding-inline-start: 0px;
+  flex-wrap: wrap;
+}
+.list-items {
+  list-style: none;
+  border: 1px solid black;
+  background-color: antiquewhite;
+  padding: 0.5rem;
+  display: flex;
+  flex-grow: 1;
+}
+.cart {
+  display: flex;
+  flex-grow: 2;
+}
+.wishlist {
+  display: flex;
+  flex-grow: 2;
+}
+.card {
+  border: 1px solid orange;
+  width: 200px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.items h3,
+.items p {
+  margin: 10px 0; 
+}
+.card5{
+    border: 1px solid gray;
+    width: 200px;
+    padding: 0.5rem;
+}
+.enroll{
+    text-decoration: none;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 0.3rem 3.8rem;
+}
+h2{
+    text-align: center;
+}
+.product{
+    border: 1px solid gray;
+    max-width: 400px;
+    padding: 1rem;
+    display: flex;
+    gap: 18px;
+}
+
+.buy{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 0.6rem 5rem;
+}
+.test{
+    border: 1px solid gray;
+    max-width: 400px;
+    padding: 1rem;
+}
+.some{
+    display: flex;
+    gap: 10px;
+}
+.price{
+    border: 1px solid gray;
+    max-width: 200px;
+    padding: 1rem; 
+    text-align: center;
+}
+.plan-btn{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem;
+   
+}
+.month{
+    color: orange;
+    font-size: 28px;
+}
+.plans{
+    display: flex;
+    padding: 1rem;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-wrap: wrap;
+    color: white;
+}
+.sec1, .sec2, .sec3{
+    min-width: 200px;
+}
+.foot-text{
+    width: 100%;
+}
